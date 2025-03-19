@@ -18,7 +18,7 @@
     <route id="r_8" edges="1i 4o"/>
     <route id="r_9" edges="4i 3o"/>
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <!-- <flow id="f_0" begin="0.00" route="r_8" end="3600.00" vehsPerHour="1800"/> -->
+     <flow id="f_0" begin="0.00" route="r_8" end="3600.00" vehsPerHour="1800"/> 
     <flow id="f_0" begin="0" end="3600" type="car" departPos="random">
         <routeProbDistribution>
             <route id="r_6" probability="0.3"/>
@@ -28,7 +28,7 @@
         <departSpeed min="10" max="20"/>
     </flow>
 
-    <!-- <flow id="f_1" begin="0.00" route="r_1" end="3600.00" vehsPerHour="1800"/> -->
+    <flow id="f_1" begin="0.00" route="r_1" end="3600.00" vehsPerHour="1800"/>
     <flow id="f_1" begin="0" end="3600" type="car" departPos="random">
         <routeProbDistribution>
             <route id="r_0" probability="0.3"/>
@@ -38,7 +38,7 @@
         <departSpeed min="10" max="20"/>
     </flow>
 
-    <!-- <flow id="f_2" begin="0.00" route="r_4" end="3600.00" vehsPerHour="1800"/> -->
+    <flow id="f_2" begin="0.00" route="r_4" end="3600.00" vehsPerHour="1800"/>
     <flow id="f_2" begin="0" end="3600" type="car" departPos="random">
         <routeProbDistribution>
             <route id="r_3" probability="0.3"/>
@@ -48,7 +48,7 @@
         <departSpeed min="10" max="20"/>
     </flow>
     
-    <!-- <flow id="f_3" begin="0.00" route="r_9" end="3600.00" vehsPerHour="1800"/> -->
+    <flow id="f_3" begin="0.00" route="r_9" end="3600.00" vehsPerHour="1800"/>
     <flow id="f_3" begin="0" end="3600" type="car" departPos="random">
         <routeProbDistribution>
             <route id="r_9" probability="0.3"/>
